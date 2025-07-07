@@ -97,10 +97,12 @@
             <div style="position: relative; display: flex; margin:auto; text-align: center; justify-content:center;">
                 <div style="margin: 20px 30px; display:flex; flex-direction: column; gap: 5px;">
                     <a href="assets/img/about/Struktur-NON-DPI-2024.png" style="padding-top:10px;" target="_blank">
-                        <img src="assets/img/about/Struktur-DPI-2024.png" Class="Bagan" alt="" style="display: flex; margin: auto;">
+                        <img src="assets/img/about/Struktur-DPI-2024.png" Class="Bagan" alt=""
+                            style="display: flex; margin: auto;">
                     </a>
                     <a href="assets/img/about/Struktur-NON-DPI-2024.png" target="_blank">
-                        <img src="assets/img/about/Struktur-NON-DPI-2024.png"  Class="Bagan" alt="" style="display: flex; margin: auto;">
+                        <img src="assets/img/about/Struktur-NON-DPI-2024.png" Class="Bagan" alt=""
+                            style="display: flex; margin: auto;">
                     </a>
                 </div>
             </div>
@@ -200,7 +202,7 @@
                         </div>
                     </div>
                     <div class="hidden lg:block cd-img-container">
-                        <img class="com-logo cd-img" src="assets/img/about/komtig-logo.svg" alt=""  >
+                        <img class="com-logo cd-img" src="assets/img/about/komtig-logo.svg" alt="">
                     </div>
                     <div class="cd-img-container">
                         <img class="cd-img" src="assets/img/about/webdev-logo.svg" alt="">
@@ -219,12 +221,14 @@
 
             <div class="py-8">
                 <div class="cd-wrapper flex flex-col md:flex-row justify-center items-center">
-                    <h2 class="h2 lg:hidden max-w-lg mx-auto font-extrabold pt-6">Commission 4: Human Resource Development</h2>
+                    <h2 class="h2 lg:hidden max-w-lg mx-auto font-extrabold pt-6">Commission 4: Human Resource
+                        Development</h2>
                     <div class="cd-img-container">
                         <img class="cd-img" src="assets/img/about/supervisor-logo.svg" alt="">
                         <div class="overlay-text">
                             <h3 class="h-cd">Supervisor</h3>
-                            <p class="text-justify">Divisi ini membina dan mengawasi kegiatan pada region-region yang belum memiliki struktur kepengurusan sendiri, 
+                            <p class="text-justify">Divisi ini membina dan mengawasi kegiatan pada region-region yang
+                                belum memiliki struktur kepengurusan sendiri,
                                 sambil perlahan-lahan mendorong kinerja dan kepengurusan untuk periode berikutnya.</p>
                         </div>
                     </div>
@@ -235,7 +239,8 @@
                         <img class="cd-img" src="assets/img/about/hrd-logo.svg" alt="">
                         <div class="overlay-text">
                             <h3 class="h-cd">Human Resource Department</h3>
-                            <p class="text-justify">Divisi ini bertugas untuk melakukan quality control dalam sumber daya manusia dalam ruang lingkup HIMTI. 
+                            <p class="text-justify">Divisi ini bertugas untuk melakukan quality control dalam sumber
+                                daya manusia dalam ruang lingkup HIMTI.
                                 Mengawasi, mengevaluasi, dan menyeleksi adalah jobdesc umum bagi HRD.</p>
                         </div>
                     </div>
@@ -311,7 +316,7 @@
         </div>
     </div>
 
-    
+
     <?php require_once('components/footer.php') ?>
 
     <!-- <script src="script.js"></script> -->

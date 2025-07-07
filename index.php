@@ -20,28 +20,28 @@ include('components/journey-items.php');
 
     <link rel="stylesheet" href="assets/css/testimonies.css">
     <link rel="stylesheet" href="assets/css/ourjourney.css">
-    
-    <script>
-      let activeProfile;
 
-      function testimoniesImgClick(name) {
+    <script>
+    let activeProfile;
+
+    function testimoniesImgClick(name) {
         if (name === activeProfile) {
-          return;
+            return;
         }
         const newImage = document.getElementById(name + "Photo");
-		const newProfile = document.getElementById(name + "Profile");
+        const newProfile = document.getElementById(name + "Profile");
         newImage.classList.add("profselector__img--active");
-		newProfile.classList.remove("profdesc--hidden");
-		
-		const oldImage = document.getElementById(activeProfile + "Photo");
+        newProfile.classList.remove("profdesc--hidden");
+
+        const oldImage = document.getElementById(activeProfile + "Photo");
         const oldProfile = document.getElementById(activeProfile + "Profile");
-		activeProfile = name;
-		if(!oldImage || !oldProfile){
-			return
-		}
-		oldImage.classList.remove("profselector__img--active");
+        activeProfile = name;
+        if (!oldImage || !oldProfile) {
+            return
+        }
+        oldImage.classList.remove("profselector__img--active");
         oldProfile.classList.add("profdesc--hidden");
-      }
+    }
     </script>
 </head>
 
@@ -53,64 +53,12 @@ include('components/journey-items.php');
     <?php $NAVBAR_SET_IMMERSIVE = true;
     require_once('components/navbar.php'); ?>
     <div id="carouselExampleIndicators" class="carousel slide carouselmain" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <?php
-            // if ($CarouselData != null || count($CarouselData) != 0) {
-                // $Number = 0;
-                // foreach ($CarouselData as $row) {
-                    // if ($Number == 0) {
-                        // echo '<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                // aria-current="true" aria-label="Slide 1"></button>';
-                        // $Number += 1;
-                    // } else {
-                        // echo '<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="' . $Number . '"
-                // aria-label="Slide ' . $Number + 1 . '"></button>';
-                        // $Number += 1;
-                    // }
-                // }
-            // } else {
-                // echo '<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>';
-            // }
-            ?>
-        </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <object data="assets/animations/OFOGAnimation.svg" type=""
-                    style="background-color: black; border-bottom-left-radius: 50px;border-bottom-right-radius: 50px;"></object>
+                    style="background-color: #29272b; border-bottom-left-radius: 50px;border-bottom-right-radius: 50px;"></object>
             </div>
-            <?php
-            // in the db carousel is empty
-            // $Number = 0;
-            // if ($CarouselData != null || count($CarouselData) != 0) {
-                // foreach ($CarouselData as $row) {
-                    // if ($Number == 0) {
-                        // echo '<div class="carousel-item active"><img class="d-block w-100 himti-header-img" src="' . $row['ImageLink'] . '" alt="' . $row['ImageName'] . '"></div>';
-                        // $Number += 1;
-                    // } else {
-                        // echo '<div class="carousel-item"><img class="d-block w-100 himti-header-img" src="' . $row['ImageLink'] . '" alt="' . $row['ImageName'] . '"></div>';
-                        // $Number += 1;
-                    // }
-                // }
-            // } else {
-                echo '';
-            // }
-            ?>
-
         </div>
-        <?php
-        // if ($CarouselData != null && count($CarouselData) > 1) {
-            // echo '<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            // data-bs-slide="prev">
-            // <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            // <span class="visually-hidden">Previous</span>
-        // </button>
-        // <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            // data-bs-slide="next">
-            // <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            // <span class="visually-hidden">Next</span>
-        // </button>';
-        // }
-        ?>
     </div>
 
     <div class="upcomingevent container">
@@ -148,15 +96,13 @@ include('components/journey-items.php');
         </div>
     </div>
     <div class="mx-auto" style="max-width: 1536px">
-      <h1 class="title">
-        <span>TESTIMONIES</span>
-      </h1>
-      <br />
-      <div class="d-flex container profwrapper shadow-lg">
-        <div
-          class="d-flex align-items-center profselector"
-        >
-		<?php
+        <h1 class="title">
+            <span>TESTIMONIES</span>
+        </h1>
+        <br />
+        <div class="d-flex container profwrapper shadow-lg">
+            <div class="d-flex align-items-center profselector">
+                <?php
 		$first = true;
 		if($testimonies != NULL && count($testimonies) > 0){
 			foreach ($testimonies as $testimony) {
@@ -171,8 +117,8 @@ include('components/journey-items.php');
 			}
 		}
 		?>
-        </div>
-	  	<?php
+            </div>
+            <?php
 		if($testimonies != NULL && count($testimonies) > 0){
 			// Active profile = pertama, kecuali kalo ada request.
 			$first = true;
@@ -204,25 +150,28 @@ include('components/journey-items.php');
 			}
 		}
 		?>
-      </div>
+        </div>
     </div>
-    
+
     <div class="ourarticle">
         <div class="title">
             <span>Our Articles</span>
         </div>
-        <div class="container">
+        <div class="container mb-4">
             <div class="row" id="RSSarticle">
 
             </div>
-
         </div>
-        <div class="articledata d-flex" style="overflow-x: auto;">
+        <!-- <div class="articledata d-flex" style="overflow-x: auto;">
 
+        </div> -->
+
+        <div style="display: flex; justify-content: space-around;">
+            <a href="https://student-activity.binus.ac.id/himti" class="btn btn-light btn-lg text-dark">
+                View All Articles
+            </a>
         </div>
 
-        <div class="viewtestimoni mt-3"><a href="https://student-activity.binus.ac.id/himti"
-                class="btn btn-light btn-lg text-dark">View All Articles</a></div>
     </div>
 
 
@@ -310,11 +259,12 @@ include('components/journey-items.php');
                             Komisi 3 yaitu <b>‘Research and Development’</b> terdiri dari divisi Creative and
                             Design
                             dan divisi Web Development.<br>
-                            Terakhir, Komisi 4 yaitu <b>‘Resource Administration’</b> terdiri dari Supervisor 
+                            Terakhir, Komisi 4 yaitu <b>‘Resource Administration’</b> terdiri dari Supervisor
                             dan Human Resource Development.<br>
                             <br>
 
-                            Untuk penjelasan lebih lengkapnya lagi, kamu dapat mengunjungi laman <a href="https://student-activity.binus.ac.id/himti/commission-and-division/">ini</a>
+                            Untuk penjelasan lebih lengkapnya lagi, kamu dapat mengunjungi laman <a
+                                href="https://student-activity.binus.ac.id/himti/commission-and-division/">ini</a>
 
                         </div>
                     </div>
@@ -357,7 +307,8 @@ include('components/journey-items.php');
                 </div>
             </div>
         </div>
-        <div class="viewtestimoni"><a href="/faq.php" class="btn btn-sm animated-button thar-three ">View All
+        <div class="viewtestimoni">
+            <a href="/faq.php" class="btn btn-sm animated-button thar-three ">View All
                 FAQs</a>
         </div>
     </div>

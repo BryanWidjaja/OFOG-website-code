@@ -8,7 +8,7 @@
   justify-content: space-around;
   align-items: center;
   color: white;
-  background-color: #0c0217;
+  background-color: #29272b;
 }
 
 #journeylist-container {
@@ -121,7 +121,7 @@
     align-items: center;
     font-family: "Mulish", sans-serif;
     color: white;
-    background-color: #0c0217;
+    background-color: #29272b;
   }
 
   #journeylist-container {
@@ -230,9 +230,8 @@
     align-items: center;
     font-family: "Mulish", sans-serif;
     color: white;
-    background-color: #0c0217;
+    background-color: #29272b;
   }
-
 
   #journeylist-container {
     width: 100%;

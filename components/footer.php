@@ -27,17 +27,18 @@
                     </ul>
                 </div>
             </div>
-            <div class="w-md-50 d-flex justify-content-md-between || md:w-1/2 flex md:justify-between flex-wrap" 
+            <div class="w-md-50 d-flex justify-content-md-between || md:w-1/2 flex md:justify-between flex-wrap"
                 style="margin-bottom: 1.5rem">
                 <div>
-                <p class="ul-label fw-bold fs-5 || font-bold text-xl" style="margin-bottom: 1rem; text-align:start">Supported By</p>
-                <a href="https://www.dewaweb.com" target="_blank">
-    <img src="assets/img/dewaweb/dewaweb.webp" alt="DewaWeb" style="width: 250px !important">
-</a>
+                    <p class="ul-label fw-bold fs-5 || font-bold text-xl" style="margin-bottom: 1rem; text-align:start">
+                        Supported By</p>
+                    <a href="https://www.dewaweb.com" target="_blank">
+                        <img src="assets/img/dewaweb/dewaweb.webp" alt="DewaWeb" style="width: 250px !important">
+                    </a>
 
                 </div>
                 <div>
-                <img src="assets/img/organization-logo/himti-logo.svg" alt="HIMTI BINUS University">
+                    <img src="assets/img/organization-logo/himti-logo.svg" alt="HIMTI BINUS University">
                 </div>
             </div>
         </div>
