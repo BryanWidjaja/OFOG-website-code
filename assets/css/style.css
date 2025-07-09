@@ -1076,3 +1076,12 @@ nav .btn-menu-toggle:hover {
   display: flex;
   gap: 0.5rem;
 }
+
+.organization-container {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 75%, #29272b);
+}
+
+.wrapper-dark,
+.transition {
+  background-color: #29272b;
+}

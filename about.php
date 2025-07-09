@@ -21,12 +21,12 @@
 
             <div class="lg:flex block pt-6 lg:pt-12">
                 <div class="half border-b lg:border-b-0 lg:border-r border-gray-100 pb-12 w-full lg:w-1/2">
-                    <h2 class="h2 pb-10">Vision</h2>
+                    <h2 class="h2 pb-6">Vision</h2>
                     <p>"Menjadikan HIMTI BINUS University sebagai Himpunan Mahasiswa yang dikenal se-Asia
                         Tenggara pada tahun 2025"</p>
                 </div>
                 <div class="half pt-6 pt-12 lg:pt-0 w-full lg:w-1/2">
-                    <h2 class="h2 pb-10">Mission</h2>
+                    <h2 class="h2 pb-6">Mission</h2>
                     <p>
                         Memperkuat ikatan antar sesama anggota keluarga HIMTI dengan pengetahuan, pengalaman, dan
                         nilai-nilai baik dalam membentuk satu keluarga HIMTI yang solid.
@@ -89,7 +89,7 @@
         </div>
     </div>
 
-    <div style="overflow-x:hidden">
+    <div style="overflow-x:hidden" class="organization-container">
         <div class=" container px-0 xl:px-6" style="width: 100%">
             <h1 class=" title">
                 <span>Organizational Structure</span>

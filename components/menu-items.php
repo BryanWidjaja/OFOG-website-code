@@ -3,7 +3,7 @@
 $MENU_ITEMS = [
     [
         'label' => 'Home',
-        'href' => '', // this should be index.php for test, else empty
+        'href' => '/', // this should be index.php for test
         'icon' => 'bi bi-house',
         'icon_fill' => 'bi bi-house-fill',
         'category' => 'page',

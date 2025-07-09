@@ -99,18 +99,18 @@ function topMenuScroll() {
         var percent = offset / threshold;
         if (percent > 1) percent = 1;
         topmenu.style.backgroundColor = "rgba(" + (65 * percent) + ", " + (89 * percent) + ", " + (167 * percent) +
-            ", " + (percent * 0.5 + 0.5) + ")";
+            ", " + (percent * 0.75 + 0.25) + ")";
     } else if (offset <= threshold / 2) {
         topmenu.style.backgroundColor = "#4159A7";
     } else {
-        topmenu.style.backgroundColor = "rgba(0, 0, 0, 0.35)";
+        topmenu.style.backgroundColor = "rgba(0, 0, 0, 0.25)";
     }
     <?php endif; ?>
 }
 
 <?php if (isset($NAVBAR_SET_IMMERSIVE) && $NAVBAR_SET_IMMERSIVE == true): ?>
 topmenu.style.backdropFilter = "blur(10px)";
-topmenu.style.backgroundColor = "rgba(0, 0, 0, 0.35)";
+topmenu.style.backgroundColor = "rgba(0, 0, 0, 0.25)";
 window.addEventListener("scroll", topMenuScroll, {
     passive: true
 });
