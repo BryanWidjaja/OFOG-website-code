@@ -20,21 +20,38 @@
             <?php require_once('./components/menu-items.php');
             $current_url = $_SERVER['REQUEST_URI'];
             foreach($MENU_ITEMS as $menu): ?>
-            <li class="d-xl-inline-block || xl:inline-block">
-                <?php if ($menu['href'] == $current_url): ?>
-                <b>
-                    <?php if (isset($menu['icon_fill'])) $menu['icon'] = $menu['icon_fill']; ?>
-                    <?php else: ?>
-                    <a href="<?= $menu['href'] ?>">
-                        <?php endif; ?>
-                        <?= isset($menu['icon']) ? '<i class="' . $menu['icon'] . '" aria-hidden="true"></i> ' : '' ?><?= $menu['label'] ?>
-                        <?php if ($menu['href'] == $current_url): ?>
-                </b>
+            <li class="d-xl-inline-block xl:inline-block">
+                <?php
+                $menuActive = $menu['href'] === $current_url;
+                if ($menu['category'] === 'event' && isset($menu['img_fill'])) {
+                    $icon_html = '
+                        <img 
+                            src="./assets/img/events/' . $menu['img_fill'] . '.png" 
+                            alt="' . htmlspecialchars($menu['label']) . '" 
+                            style="
+                                height: 20px;
+                            "
+                        >
+                    ';
+                } elseif (isset($menu['icon_fill'])) {
+                    $icon_html = '<i class="' . $menu['icon_fill'] . '" aria-hidden="true"></i>';
+                } else {
+                    $icon_html = '';
+                }
+                ?>
+
+                <?php if ($menuActive): ?>
+                <b><?= $icon_html ?> <?= $menu['label'] ?></b>
                 <?php else: ?>
+                <a href="<?= $menu['href'] ?>">
+                    <?= $icon_html ?> <?= $menu['label'] ?>
                 </a>
                 <?php endif; ?>
             </li>
+
+
             <?php endforeach ?>
+
         </ul>
     </div>
 </nav>

@@ -778,21 +778,15 @@ button {
 *:hover > .hi {
   filter: brightness(0.9);
 }
-.hi-hishot {
+/* .hi-hishot {
   background-image: url("https://hishot.himtibinus.or.id/assets/Navbar Logo.png");
 }
 .hi-techno {
   background-image: url("/assets/img/events/techno2024.png");
 }
-.hi-techno-2022 {
-  /* background-image: url("https://drive.google.com/uc?export=view&id=15kZv1wFfkTvRjAXaAY1X-paKDK24meQy"); */
-}
-.hi-techfest-2022 {
-  /* background-image: url("https://drive.google.com/uc?export=view&id=1LMAUZ-t18zktQTIW8cO1UpoG8iTA2O7F"); */
-}
 .hi-techfest {
   background-image: url("https://techfest.himtibinus.or.id/assets/gear.png");
-}
+} */
 
 @media (min-width: 678px) {
   .hi-sm-lg {

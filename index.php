@@ -62,7 +62,6 @@ include('components/journey-items.php');
         "></object>
     </div>
 
-
     <div class="upcomingevent container">
         <div class="title">
             <span>Upcoming Events</span>

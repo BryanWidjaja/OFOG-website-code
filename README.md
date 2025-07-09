@@ -14,6 +14,7 @@ Major Changes :
    - Reworked layouting
      - More balanced
        - Modified each campus into a card
+   - Updated new layout with responsiveness
 
 Minor Changes :
 
@@ -24,3 +25,4 @@ Minor Changes :
    - More centered look
 4. Flipped the order of "Upcoming Events"
    - Users read from right to left
+5. Fixed missing icons by implementing workaround

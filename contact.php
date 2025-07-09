@@ -17,9 +17,7 @@
 
     <div id="content-container">
         <div id="content-section">
-            <div id="content-left">
-                <img src="assets/img/organization-logo/HIMTI.png" alt="">
-            </div>
+            <img src="assets/img/organization-logo/HIMTI.png" alt="HIMTI" class="content-left-img">
             <div id="content-center"></div>
             <div id="content-right">
                 <p><strong>Web</strong> : www.ofog.himtibinus.or.id/</p>

@@ -26,18 +26,21 @@ $MENU_ITEMS = [
         'label' => 'HISHOT 2024',
         'href' => 'https://hishot.himtibinus.or.id/',
         'icon' => 'hi hi-hishot hi-white hi-sm-lg',
+        'img_fill' => 'HISHOT2024',
         'category' => 'event',
     ],
     [
         'label' => 'TECHFEST 2024',
         'href' => 'https://techfest.himtibinus.or.id/',
         'icon' => 'hi hi-techfest hi-white hi-sm-lg',
+        'img_fill' => 'TechFest2024',
         'category' => 'event',
     ],
     [
         'label' => 'TECHNO 2024',
         'href' => 'https://techno.himtibinus.or.id',
         'icon' => 'hi hi-techno hi-white hi-sm-lg',
+        'img_fill' => 'techno2024',
         'category' => 'event',
     ],
     [
