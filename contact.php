@@ -22,37 +22,47 @@
             </div>
             <div id="content-center"></div>
             <div id="content-right">
-                <p>
-                    Web : www.himti.or.id<br>
-                    E-mail : mail@himti.or.id<br>
-                    Facebook : https://www.facebook.com/himtibinus/<br>
-                    Instagram : @himti_binus<br>
-                    <br>
-                    <br>
-                    <b>Alam Sutera Campus</b><br>
-                    Student Club and Activity Center (SCAC)<br>
-                    Jl. Jalur Sutera Barat Kav. 21,<br>
-                    Alam Sutera, Tangerang<br>
-                    <br>
-                    <br>
-                    <b>Syahdan Campus</b><br>
-                    Student Club and Activity Center (SCAC)<br>
-                    Jl. K H. Syahdan No. 9, Kemanggisan – Palmerah<br>
-                    Jakarta Barat 11480<br>
-                </p>
+                <p><strong>Web</strong> : www.ofog.himtibinus.or.id/</p>
+                <p><strong>E-mail</strong> : mail@himti.or.id</p>
+                <p><strong>Facebook</strong> : https://www.facebook.com/himtibinus/</p>
+                <p><strong>Instagram</strong> : @himti_binus</p>
             </div>
         </div>
-        <div style="padding-top: 24px;">
-            <p><b>Senayan Campus</b><br>
-                FX Sudirman Lantai 6 Jalan Pintu Satu<br>
-                Senayan No.3, RT.1/RW.3 – Jakarta</p>
-            <p><b>Bandung Campus</b><br>
-                Paskal Hyper Square<br>
-                Jalan Pasirkaliki No. 25-27 – Bandung</p>
-            <p><b>Malang Campus</b><br>
-                Jalan Araya Mansion No. 8 – 22, Araya – Malang 65154</p>
+        <div class="campus-row">
+            <div class="campus-card">
+                <p class="campus-card-header"><strong>Alam Sutera Campus</strong></p>
+                <p>Student Club and Activity Center (SCAC)</p>
+                <p>Jl. Jalur Sutera Barat Kav. 21,</p>
+                <p>Alam Sutera, Tangerang</p>
+            </div>
+
+            <div class="campus-card">
+                <p class="campus-card-header"><strong>Syahdan Campus</strong></p>
+                <p>Student Club and Activity Center (SCAC)</p>
+                <p>Jl. K H. Syahdan No. 9, Kemanggisan – Palmerah</p>
+                <p>Jakarta Barat 11480</p>
+            </div>
+
+            <div class="campus-card">
+                <p class="campus-card-header"><strong>Senayan Campus</strong></p>
+                <p>FX Sudirman Lantai 6 Jalan Pintu Satu</p>
+                <p>Senayan No.3, RT.1/RW.3 – Jakarta</p>
+            </div>
         </div>
 
+        <div class="campus-row">
+            <div class="campus-card">
+                <p class="campus-card-header"><strong>Bandung Campus</strong></p>
+                <p>Paskal Hyper Square</p>
+                <p>Jalan Pasirkaliki No. 25-27 – Bandung</p>
+            </div>
+
+            <div class="campus-card">
+                <p class="campus-card-header"><strong>Malang Campus</strong></p>
+                <p>Jalan Araya Mansion No. 8 – 22</p>
+                <p>Araya – Malang 65154</p>
+            </div>
+        </div>
     </div>
 
     <?php require_once('components/footer.php') ?>

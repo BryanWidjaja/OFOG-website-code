@@ -9,9 +9,18 @@ Major Changes :
    - Unoptimized layout
    - Overuse of margin
    - Minor style changes
+3. Changed "Contact Us" section
+   - Fixed wrong website link
+   - Reworked layouting
+     - More balanced
+       - Modified each campus into a card
 
 Minor Changes :
 
 1. Cleaned up old commented code
 2. Style Changes
    - Reduced the usage of pure black backgrounds
+3. Changed the size of OFOGAnimation.svg and the container
+   - More centered look
+4. Flipped the order of "Upcoming Events"
+   - Users read from right to left

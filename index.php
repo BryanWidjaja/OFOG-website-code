@@ -52,20 +52,36 @@ include('components/journey-items.php');
     </div>
     <?php $NAVBAR_SET_IMMERSIVE = true;
     require_once('components/navbar.php'); ?>
-    <div id="carouselExampleIndicators" class="carousel slide carouselmain" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <object data="assets/animations/OFOGAnimation.svg" type=""
-                    style="background-color: #29272b; border-bottom-left-radius: 50px;border-bottom-right-radius: 50px;"></object>
-            </div>
-        </div>
+    <div class="ofog-animation-container">
+        <object data="assets/animations/OFOGAnimation.svg" type="" style="
+            background-color: #29272b; 
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            height: 100%; 
+            width: 100%;
+        "></object>
     </div>
+
 
     <div class="upcomingevent container">
         <div class="title">
             <span>Upcoming Events</span>
         </div>
         <div class="upcomingeventdata">
+            <a href="https://hishot.himtibinus.or.id/" class="linkupcoming" target="_blank">
+                <div class="upcomingeventrow">
+                    <div style="height: 75%; display: flex;">
+                        <img sytle="height: 60%;" src="assets/img/events/HISHOT2024.png" alt="" class="logo">
+                    </div>
+
+                    <div class="upcomingeventitem shadow">
+                        <p>HISHOT 2024: PROTECT</p>
+                        <p data-countdown-enabled="true" data-countdown-timestamp="2023-07-29 13:00:00"></p>
+                        <p>27 July 2024</p>
+                    </div>
+                </div>
+            </a>
+
             <a href="https://techno.himtibinus.or.id/" class="linkupcoming" target="_blank">
                 <div class="upcomingeventrow">
                     <div style="height: 80%; display: flex; align-items: center;">
@@ -77,19 +93,6 @@ include('components/journey-items.php');
                         <!-- <p>Coming soon!</p> -->
                         <!-- <p data-countdown-enabled="true" data-countdown-timestamp="2023-09-10 13:00:00"></p> -->
                         <!-- <p>?? ?? 2024</p> -->
-                    </div>
-                </div>
-            </a>
-            <a href="https://hishot.himtibinus.or.id/" class="linkupcoming" target="_blank">
-                <div class="upcomingeventrow">
-                    <div style="height: 75%; display: flex;">
-                        <img sytle="height: 60%;" src="assets/img/events/HISHOT2024.png" alt="" class="logo">
-                    </div>
-
-                    <div class="upcomingeventitem shadow">
-                        <p>HISHOT 2024: PROTECT</p>
-                        <p data-countdown-enabled="true" data-countdown-timestamp="2023-07-29 13:00:00"></p>
-                        <p>27 July 2024</p>
                     </div>
                 </div>
             </a>

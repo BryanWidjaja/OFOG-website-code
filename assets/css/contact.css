@@ -6,47 +6,69 @@ body {
   position: relative;
 }
 
+#content-container p {
+  margin-bottom: 0;
+}
+
 #content-container {
   max-width: 1280px;
   margin: 5% auto;
-  padding: 2% 5%;
+  /* padding: 2% 5%; */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 #content-section {
   display: flex;
   flex-direction: row;
-  /* padding-bottom: 40px; */
-  /* flex-wrap: wrap; */
+  gap: 1rem;
 }
 
 #content-left {
-  width: 50%;
   display: flex;
   justify-content: flex-end;
 }
 
 #content-left img {
-  width: 80%;
-  margin: auto;
+  width: 40%;
+  height: auto;
 }
 
 #content-right {
-  width: 50%;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-#content-right p {
-  width: auto;
-  height: auto;
-  font-size: 1rem;
-  margin-left: 5%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
 }
 
 #content-center {
   background-color: #1b97d4;
   width: 3px;
+}
+
+.campus-row {
+  display: flex;
+  width: 100%;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.campus-card {
+  width: 30%;
+  background-color: #fffffd;
+  box-shadow: 0 0 0.75rem rgb(0, 0, 0, 0.1);
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 1.25rem;
+}
+
+.campus-card strong {
+  font-size: 1.1rem;
 }
 
 @media only screen and (max-width: 1024px) {
