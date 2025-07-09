@@ -26,3 +26,5 @@ Minor Changes :
 4. Flipped the order of "Upcoming Events"
    - Users read from right to left
 5. Fixed missing icons by implementing workaround
+6. Adjusted "About Us" page's navbar links bug (icons not aligned)
+7. Changed all "b" tags to "strong" tags

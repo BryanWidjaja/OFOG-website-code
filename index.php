@@ -135,7 +135,7 @@ include('components/journey-items.php');
 						<div class="profdesc__years"> Kepengurusan HIMTI: ', $testimony["active_years"], '</div>';
                         echo '<ul class="profdesc__experiences">';
                         foreach ($testimony['experiences'] as $experience){
-                            echo '<li><b> ', $experience['experience'], '</b> (', $experience['year'] , ') </li>';
+                            echo '<li><strong> ', $experience['experience'], '</strong> (', $experience['year'] , ') </li>';
                         }
                         echo '</ul>';
 					echo '</div>';
@@ -253,15 +253,15 @@ include('components/journey-items.php');
                         <div class="accordion-body">
                             Di HIMTI BINUS sendiri terdapat tiga komisi yang terdiri dari dua divisi di tiap
                             komisi.<br>
-                            Komisi 1 yaitu <b>‘Education’</b> terdiri dari divisi Academic Event dan divisi Responsi.
+                            Komisi 1 yaitu <strong>‘Education’</strong> terdiri dari divisi Academic Event dan divisi Responsi.
                             <br>Komisi
-                            2 yaitu <b>‘Relation Expansion’</b> terdiri dari divisi Publication and Marketing dan divisi
+                            2 yaitu <strong>‘Relation Expansion’</strong> terdiri dari divisi Publication and Marketing dan divisi
                             HIMTI
                             Care.<br>
-                            Komisi 3 yaitu <b>‘Research and Development’</b> terdiri dari divisi Creative and
+                            Komisi 3 yaitu <strong>‘Research and Development’</strong> terdiri dari divisi Creative and
                             Design
                             dan divisi Web Development.<br>
-                            Terakhir, Komisi 4 yaitu <b>‘Resource Administration’</b> terdiri dari Supervisor
+                            Terakhir, Komisi 4 yaitu <strong>‘Resource Administration’</strong> terdiri dari Supervisor
                             dan Human Resource Development.<br>
                             <br>
 

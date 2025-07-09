@@ -3,14 +3,14 @@
 $MENU_ITEMS = [
     [
         'label' => 'Home',
-        'href' => '/',
+        'href' => '', // this should be index.php for test, else empty
         'icon' => 'bi bi-house',
         'icon_fill' => 'bi bi-house-fill',
         'category' => 'page',
     ],
     [
         'label' => 'About Us',
-        'href' => '/about.php',
+        'href' => 'about.php',
         'icon' => 'bi bi-people',
         'icon_fill' => 'bi bi-people-fill',
         'category' => 'page',
@@ -45,7 +45,7 @@ $MENU_ITEMS = [
     ],
     [
         'label' => 'Contact Us',
-        'href' => '/contact.php',
+        'href' => 'contact.php',
         'icon' => 'bi bi-chat-quote',
         'icon_fill' => 'bi bi-chat-quote-fill',
         'category' => 'page',

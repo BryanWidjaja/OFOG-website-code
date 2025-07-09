@@ -1042,7 +1042,7 @@ nav .btn-menu-toggle:hover {
   }
 }
 
-/* 07/07/2025 - RSShandle */
+/* 07/07/2025 */
 
 .category-container {
   display: inline-block;
@@ -1067,4 +1067,12 @@ nav .btn-menu-toggle:hover {
   position: relative;
   justify-content: center;
   align-items: center;
+}
+
+/* 09/07/2025 */
+
+.nav-li a,
+.nav-li strong {
+  display: flex;
+  gap: 0.5rem;
 }

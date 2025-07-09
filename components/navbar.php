@@ -18,11 +18,14 @@
         <hr class="d-xl-none || xl:hidden opacity-30" style="margin: 1rem 0;">
         <ul class="list-unstyled m-0 || list-none">
             <?php require_once('./components/menu-items.php');
-            $current_url = $_SERVER['REQUEST_URI'];
+            $uri = $_SERVER['REQUEST_URI'];
+            $current_url = basename($uri);
+            
             foreach($MENU_ITEMS as $menu): ?>
-            <li class="d-xl-inline-block xl:inline-block">
+            <li class="d-xl-inline-block xl:inline-block nav-li">
                 <?php
                 $menuActive = $menu['href'] === $current_url;
+                
                 if ($menu['category'] === 'event' && isset($menu['img_fill'])) {
                     $icon_html = '
                         <img 
@@ -41,7 +44,7 @@
                 ?>
 
                 <?php if ($menuActive): ?>
-                <b><?= $icon_html ?> <?= $menu['label'] ?></b>
+                <strong><?= $icon_html ?> <?= $menu['label'] ?></strong>
                 <?php else: ?>
                 <a href="<?= $menu['href'] ?>">
                     <?= $icon_html ?> <?= $menu['label'] ?>

@@ -265,9 +265,9 @@
                         src="assets/img/about/history-img.svg" alt="">
                     <div class="half w-full px-0 sm:px-4 md:pl-0 lg:pr-12 xl:pl-4 w-3/5">
                         <p>
-                            <b>Himpunan Mahasiswa Teknik Informatika Universitas Bina Nusantara</b> atau yang
+                            <strong>Himpunan Mahasiswa Teknik Informatika Universitas Bina Nusantara</strong> atau yang
                             sering
-                            kita sebut <b>HIMTI</b> berdiri pertama kali pada tahun 1992, tepatnya pada 14
+                            kita sebut <strong>HIMTI</strong> berdiri pertama kali pada tahun 1992, tepatnya pada 14
                             September
                             1992. Pencetus ide HIMTI merupakan mantan ketua Jurusan Teknik Informatika yaitu
                             Bpk. Ir.
