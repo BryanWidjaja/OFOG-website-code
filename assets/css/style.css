@@ -1085,11 +1085,3 @@ nav .btn-menu-toggle:hover {
 .transition {
   background-color: #29272b;
 }
-
-/* 12/07/2025 */
-
-.zoom-img-container {
-  overflow: auto;
-  max-width: 100%;
-  max-height: 80vh;
-}
