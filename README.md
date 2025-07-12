@@ -1,6 +1,8 @@
-Changelogs :
+# Changelogs
 
-Major Changes :
+---
+
+## Major Changes
 
 1. Removed redundant pages :
    - feed.php, index-old.php
@@ -18,7 +20,7 @@ Major Changes :
 4. Implemented zooming on the organizational trees in "About Us"
    - Used panzoom for implementation
 
-Minor Changes :
+## Minor Changes
 
 1. Cleaned up old commented code
 2. Style Changes
