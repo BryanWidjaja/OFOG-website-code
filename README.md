@@ -15,6 +15,8 @@ Major Changes :
      - More balanced
        - Modified each campus into a card
    - Updated new layout with responsiveness
+4. Implemented zooming on the organizational trees in "About Us"
+   - Used panzoom for implementation
 
 Minor Changes :
 

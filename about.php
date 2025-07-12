@@ -96,14 +96,20 @@
             </h1>
             <div style="position: relative; display: flex; margin:auto; text-align: center; justify-content:center;">
                 <div style="margin: 20px 30px; display:flex; flex-direction: column; gap: 5px;">
-                    <a href="assets/img/about/Struktur-NON-DPI-2024.png" style="padding-top:10px;" target="_blank">
+                    <!-- <a href="assets/img/about/Struktur-DPI-2024.png" style="padding-top:10px;" target="_blank">
                         <img src="assets/img/about/Struktur-DPI-2024.png" Class="Bagan" alt=""
                             style="display: flex; margin: auto;">
-                    </a>
-                    <a href="assets/img/about/Struktur-NON-DPI-2024.png" target="_blank">
+                    </a> -->
+                    <div class="zoom-img-container">
+                        <img src="assets/img/about/Struktur-DPI-2024.png" Class="Bagan zoomImg" alt="">
+                    </div>
+                    <!-- <a href="assets/img/about/Struktur-NON-DPI-2024.png" target="_blank">
                         <img src="assets/img/about/Struktur-NON-DPI-2024.png" Class="Bagan" alt=""
                             style="display: flex; margin: auto;">
-                    </a>
+                    </a> -->
+                    <div class="zoom-img-container">
+                        <img src="assets/img/about/Struktur-NON-DPI-2024.png" Class="Bagan zoomImg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -320,6 +326,25 @@
     <?php require_once('components/footer.php') ?>
 
     <!-- <script src="script.js"></script> -->
+
+    <script src="https://unpkg.com/@panzoom/panzoom@4.6.0/dist/panzoom.min.js"></script>
+    <script>
+    const zoomImgs = document.querySelectorAll('.zoomImg');
+
+    zoomImgs.forEach(img => {
+        const panzoom = Panzoom(img, {
+            maxScale: 5,
+            minScale: 1,
+            contain: 'outside'
+        });
+        img.parentElement.addEventListener('wheel', panzoom.zoomWithWheel);
+
+        panzoom.zoom(1);
+        panzoom.pan(0, 0);
+    });
+    </script>
+
+
 </body>
 
 </html>
